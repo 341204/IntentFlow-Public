@@ -1,0 +1,44 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Build outputs and downloaded dependencies
+node_modules/
+dist/
+build/
+target/
+**/.mvn/apache-maven-*/
+**/.mvn/apache-maven-*-bin.zip
+**/.mvn/wrapper/maven-wrapper.jar
+
+# Runtime data and logs
+data/
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files
+*.bak
+*~
